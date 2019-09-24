@@ -15,7 +15,11 @@ body {
 .letter-spacing {
   letter-spacing: 0.5rem;
 }
-.header-hero{
+.header-hero, .default-hero{
   min-height: calc(100vh - 56px);
   background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./images/homeBcg.jpeg') center/cover no-repeat;
+}
+.default-hero{
+  min-height: calc(100vh - 56px);
+  background: linear-gradient(rgba(241,81,37,0.3),rgba(241,81,37,0.3)), url('./images/homeBcg.jpeg') center/cover no-repeat;
 }

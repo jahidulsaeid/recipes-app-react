@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export class Home extends Component {
   render() {
     return (
-      <Header title="Amazing recipes">
+      <Header title="Amazing recipes" styleClass="default-hero">
         <Link to="/recipes" className="text-uppercase btn btn-secondary btn-lg mt-3">
         Search recipes
         </Link>

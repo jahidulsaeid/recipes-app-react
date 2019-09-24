@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Link, Switch  } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch  } from "react-router-dom";
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
 import SingleRecipe from './pages/SingleRecipe';
