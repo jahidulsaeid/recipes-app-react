@@ -1,0 +1,17 @@
+/* Using font fomaily
+  font-family: "Open Sans", sans-serif;
+  font-family: 'Courgette', cursive;
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.text-slanted {
+  font-family: "Courgette", cursive;
+}
+.text-orange {
+  color: #f15025;
+}
+.letter-spacing {
+  letter-spacing: 0.5rem;
+}

@@ -22,8 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# lock files
-yarn.lock
 
-# json lock files
+# lock file
 package-lock.json
+yarn.lock
