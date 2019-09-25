@@ -18,7 +18,7 @@ export default class SingleRecipe extends Component {
       const responseData = await response.json();
       this.setState({
         recipe: responseData.recipe,
-        loading:false
+        loading: false
       });
     } catch (error) {
       console.log(error);
