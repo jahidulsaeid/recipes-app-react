@@ -21,7 +21,6 @@ function App() {
         <Route path='/recipes' exact component={Recipes}/>
         <Route path='/recipes/:id' exact component={SingleRecipe}/>
         <Route path='/about' exact component={About}/>
-        
         <Route component={Default}/>
         </Switch>
       </main>

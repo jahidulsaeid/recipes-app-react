@@ -1,30 +1,36 @@
-import React, { Component } from 'react'
-import logo from '../images/logo.svg'
-import { Link } from 'react-router-dom'
+import React, { Component } from "react";
+import logo from "../images/logo.svg";
+import { Link } from "react-router-dom";
 
 export class Navbar extends Component {
   render() {
     return (
       <div className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-        <Link className="navbar-brand">
-          <img src={logo} alt="LOGO"/>
-        </Link>
+          <Link className="navbar-brand">
+            <img src={logo} alt="LOGO" />
+          </Link>
           <ul className="navbar-nav float-right">
             <li className="navbar-item">
-              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/recipes" className="nav-link">Recipes</Link>
+              <Link to="/recipes" className="nav-link">
+                Recipes
+              </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/about" className="nav-link">About</Link>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
             </li>
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;
