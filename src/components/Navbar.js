@@ -7,7 +7,7 @@ export class Navbar extends Component {
     return (
       <div className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-          <Link className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             <img src={logo} alt="LOGO" />
           </Link>
           <ul className="navbar-nav float-right">
